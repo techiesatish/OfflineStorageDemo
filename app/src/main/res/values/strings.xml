@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PhableTest</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="getting_db">Getting database</string>
+    <string name="create_new_db">Create new database</string>
+    <string name="no_result_found">No user found</string>
+    <string name="user_name">User Name</string>
+    <string name="user_email">User Email</string>
+    <string name="save">Save</string>
+    <string name="unknow_view_model">Unknown View Model</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+</resources>

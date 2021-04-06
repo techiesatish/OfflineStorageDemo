@@ -1,4 +1,4 @@
-package com.test.android.phabletest
+package com.test.android.offlinestorage
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,12 +8,12 @@ import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import com.test.android.phabletest.data.db.UserDataBase
-import com.test.android.phabletest.data.db.entity.UserDetails
-import com.test.android.phabletest.data.repository.UserRepository
-import com.test.android.phabletest.databinding.FragmentSecondBinding
-import com.test.android.phabletest.viewmodel.SharedViewModel
-import com.test.android.phabletest.viewmodel.ViewModelFactory
+import com.test.android.offlinestorage.data.db.UserDataBase
+import com.test.android.offlinestorage.data.db.entity.UserDetails
+import com.test.android.offlinestorage.data.repository.UserRepository
+import com.test.android.offlinestorage.databinding.FragmentSecondBinding
+import com.test.android.offlinestorage.viewmodel.SharedViewModel
+import com.test.android.offlinestorage.viewmodel.ViewModelFactory
 
 
 class SecondFragment : Fragment() {

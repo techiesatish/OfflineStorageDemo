@@ -1,13 +1,10 @@
-package com.test.android.phabletest.viewmodel
+package com.test.android.offlinestorage.viewmodel
 
-import android.content.Context
 import android.text.TextUtils
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.liveData
-import com.test.android.phabletest.data.db.entity.UserDetails
-import com.test.android.phabletest.data.repository.UserRepository
+import com.test.android.offlinestorage.data.db.entity.UserDetails
+import com.test.android.offlinestorage.data.repository.UserRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

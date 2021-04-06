@@ -1,8 +1,8 @@
-package com.test.android.phabletest.data.db
+package com.test.android.offlinestorage.data.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.test.android.phabletest.data.db.entity.UserDetails
+import com.test.android.offlinestorage.data.db.entity.UserDetails
 
 @Dao
 interface UserDao {

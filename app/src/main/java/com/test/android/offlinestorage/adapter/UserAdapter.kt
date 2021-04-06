@@ -1,4 +1,4 @@
-package com.test.android.phabletest.adapter
+package com.test.android.offlinestorage.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.test.android.phabletest.data.db.entity.UserDetails
-import com.test.android.phabletest.databinding.RecyclerItemBinding
-import com.test.android.phabletest.listeners.ItemClickListner
+import com.test.android.offlinestorage.data.db.entity.UserDetails
+import com.test.android.offlinestorage.databinding.RecyclerItemBinding
+import com.test.android.offlinestorage.listeners.ItemClickListner
 
 class UserAdapter(private val list: ArrayList<UserDetails>,val mContext: Context,val itemClickListner: ItemClickListner) : ListAdapter<UserDetails, UserAdapter.UserViewHolder>(DiffUtilUser()) {
 lateinit var binding: RecyclerItemBinding

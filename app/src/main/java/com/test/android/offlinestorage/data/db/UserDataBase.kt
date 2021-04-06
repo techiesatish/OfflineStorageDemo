@@ -1,13 +1,10 @@
-package com.test.android.phabletest.data.db
+package com.test.android.offlinestorage.data.db
 
 import android.content.Context
-import android.util.Log
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import androidx.room.TypeConverters
-import com.test.android.phabletest.R
-import com.test.android.phabletest.data.db.entity.UserDetails
+import com.test.android.offlinestorage.data.db.entity.UserDetails
 
 @Database(
     entities = [UserDetails::class],

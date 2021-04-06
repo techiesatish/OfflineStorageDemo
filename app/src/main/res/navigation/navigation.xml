@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/firstFragment"
-        android:name="com.test.android.phabletest.FirstFragment"
+        android:name="com.test.android.offlinestorage.FirstFragment"
         android:label="fragment_first"
         tools:layout="@layout/fragment_first">
     <action
@@ -16,11 +16,11 @@
         app:enterAnim="@anim/nav_default_enter_anim" />
     <argument
         android:name="UserDetails"
-        app:argType="com.test.android.phabletest.data.db.entity.UserDetails" />
+        app:argType="com.test.android.offlinestorage.data.db.entity.UserDetails" />
     </fragment>
     <fragment
         android:id="@+id/secondFragment"
-        android:name="com.test.android.phabletest.SecondFragment"
+        android:name="com.test.android.offlinestorage.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second">
         <action

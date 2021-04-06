@@ -1,4 +1,4 @@
-package com.test.android.phabletest
+package com.test.android.offlinestorage
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

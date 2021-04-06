@@ -1,4 +1,4 @@
-package com.test.android.phabletest
+package com.test.android.offlinestorage
 
 import org.junit.Test
 

@@ -1,11 +1,9 @@
-package com.test.android.phabletest.viewmodel
+package com.test.android.offlinestorage.viewmodel
 
-import android.content.Context
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.test.android.phabletest.R
-import com.test.android.phabletest.data.repository.UserRepository
+import com.test.android.offlinestorage.data.repository.UserRepository
 
 class ViewModelFactory(
     private val repository: UserRepository

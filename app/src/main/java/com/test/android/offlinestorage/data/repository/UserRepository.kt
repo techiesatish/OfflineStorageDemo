@@ -1,8 +1,8 @@
-package com.test.android.phabletest.data.repository
+package com.test.android.offlinestorage.data.repository
 
 import androidx.lifecycle.LiveData
-import com.test.android.phabletest.data.db.UserDataBase
-import com.test.android.phabletest.data.db.entity.UserDetails
+import com.test.android.offlinestorage.data.db.UserDataBase
+import com.test.android.offlinestorage.data.db.entity.UserDetails
 
 class UserRepository(val appDatabase: UserDataBase?) {
 

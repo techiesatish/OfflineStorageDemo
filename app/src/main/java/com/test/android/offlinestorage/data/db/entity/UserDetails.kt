@@ -1,4 +1,4 @@
-package com.test.android.phabletest.data.db.entity
+package com.test.android.offlinestorage.data.db.entity
 
 import android.os.Parcelable
 import androidx.room.Entity
